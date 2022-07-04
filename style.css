@@ -1,0 +1,25 @@
+.orange-color {
+  color: orange;
+}
+
+.order-food-btn {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 15px 40px;
+  color: white;
+  border-radius: 50px;
+}
+
+.flex-container {
+  display: flex;
+}
+.flex-container img {
+  width: 80%;
+}
+.half-width {
+  width: 40%;
+  padding-left: 5%;
+}
+h1 {
+  font-size: 60px;
+}
