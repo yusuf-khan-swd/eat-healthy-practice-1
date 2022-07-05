@@ -5,6 +5,15 @@ body {
 /* Universal end */
 
 /* General start */
+p {
+  font-size: 20px;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
 .flex-container {
   display: flex;
   margin-bottom: 150px;
@@ -42,18 +51,19 @@ body {
   background-image: url(./images/shapes/7.png);
   background-repeat: no-repeat;
   background-position: top;
-  min-height: 600px;
+  min-height: 425px;
 }
 .second-section img {
-  padding: 0px;
-  max-width: 100%;
+  padding-left: 25%;
+  max-width: 50%;
 }
 /* Second section end */
 
 /* third section start */
 .third-section {
-  margin: 20px 300px;
+  margin: 0 25%;
   text-align: center;
+  margin-bottom: 50px;
 }
 /* third section end */
 
@@ -73,7 +83,7 @@ body {
   border-radius: 20px;
   box-shadow: 0.5px 0.5px 20px gray;
   margin: 10% 10%;
-  height: 150px;
+  min-height: 200px;
 }
 .social-section {
   display: flex;
