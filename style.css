@@ -29,9 +29,6 @@ body {
 /* General end */
 
 /* first seciton start */
-.first-section {
-  border: 1px solid black;
-}
 .heading {
   font-size: 60px;
 }
@@ -45,24 +42,22 @@ body {
   background-image: url(./images/shapes/7.png);
   background-repeat: no-repeat;
   background-position: top;
-  border: 1px solid black;
-  /* min-height: 400px; */
+  min-height: 600px;
 }
-
+.second-section img {
+  padding: 0px;
+  max-width: 100%;
+}
 /* Second section end */
 
 /* third section start */
 .third-section {
   margin: 20px 300px;
   text-align: center;
-  border: 1px solid black;
 }
 /* third section end */
 
 /* fourth section start */
-.fourth-section {
-  border: 1px solid black;
-}
 .card-1 {
   width: 40%;
   margin-left: 5%;
