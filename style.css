@@ -1,17 +1,11 @@
-.orange-color {
-  color: orange;
-}
+/* Universal start */
 
-.order-food-btn {
-  text-decoration: none;
-  background-image: linear-gradient(orange, tomato);
-  padding: 15px 40px;
-  color: white;
-  border-radius: 50px;
-}
+/* Universal end */
 
+/* General start */
 .flex-container {
   display: flex;
+  margin-bottom: 150px;
 }
 .flex-container img {
   width: 80%;
@@ -20,6 +14,45 @@
   width: 40%;
   padding-left: 5%;
 }
-h1 {
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 15px 40px;
+  color: white;
+  border-radius: 50px;
+  box-shadow: 1px 1px 8px gray;
+}
+/* General end */
+
+/* first seciton start */
+.heading {
   font-size: 60px;
 }
+.orange-color {
+  color: orange;
+}
+/* first seciton end */
+
+/* second section start */
+.second-section {
+  background-image: url(./images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+/* Second section end */
+
+/* third section start */
+.third-section {
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+}
+/* third section end */
+
+/* fourth section start */
+.card-1 {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* fourth section start */
