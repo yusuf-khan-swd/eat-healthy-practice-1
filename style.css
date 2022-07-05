@@ -1,5 +1,7 @@
 /* Universal start */
-
+body {
+  margin: 0;
+}
 /* Universal end */
 
 /* General start */
@@ -25,6 +27,9 @@
 /* General end */
 
 /* first seciton start */
+.first-section {
+  border: 1px solid black;
+}
 .heading {
   font-size: 60px;
 }
@@ -38,21 +43,55 @@
   background-image: url(./images/shapes/7.png);
   background-repeat: no-repeat;
   background-position: top;
+  border: 1px solid black;
+  max-height: 500px;
 }
+
 /* Second section end */
 
 /* third section start */
 .third-section {
-  margin-left: 250px;
-  margin-right: 250px;
+  margin: 20px 300px;
   text-align: center;
+  border: 1px solid black;
 }
 /* third section end */
 
 /* fourth section start */
+.fourth-section {
+  border: 1px solid black;
+}
 .card-1 {
   width: 40%;
   margin-left: 5%;
   margin-right: 5%;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0.5px 0.5px 20px gray;
 }
 /* fourth section start */
+
+/* fifth section start */
+.fifth-section {
+  border-radius: 20px;
+  box-shadow: 0.5px 0.5px 20px gray;
+  margin: 10% 10%;
+  height: 150px;
+}
+.social-section {
+  display: flex;
+}
+.social {
+  padding-left: 150px;
+  font-size: 20px;
+}
+/* fifth section end */
+
+/* footer start */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 30px 100px 40px;
+}
+/* footer end */
